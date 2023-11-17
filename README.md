@@ -1,6 +1,6 @@
 # MCVE for TypeORM issues
 
-_Issue:_ "Broken migrations for indices on TIMESTAMP WITH TIMEZONE Oracle Database columns"
+_Issue:_ [Broken migrations for indices on TIMESTAMP WITH TIMEZONE Oracle Database columns](https://github.com/typeorm/typeorm/issues/10493)
 
 Steps to run this project:
 
