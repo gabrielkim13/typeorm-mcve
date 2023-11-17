@@ -1,0 +1,10 @@
+services:
+  oracledb:
+    image: gvenzl/oracle-xe:21-slim-faststart
+    environment:
+      - ORACLE_RANDOM_PASSWORD=true
+      - ORACLE_DATABASE=test
+      - APP_USER=test
+      - APP_USER_PASSWORD=test
+    ports:
+      - 1521:1521
